@@ -155,6 +155,9 @@ public abstract class AbstractMap<K, V> implements Map<K, V> {
 
         @Override
         public K next() {
+        	System.out.print(it.next().getValue());
+        	System.out.print(it.next().getKey());
+
             return it.next().getKey();
         }
         
